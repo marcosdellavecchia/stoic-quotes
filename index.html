@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Random Stoic Quote Generator</title>
+  </head>
+    <body>
+      <div class="container-fluid fade-in">
+      <div class="text-center">
+        <h1>Discover stoic wisdom in a simple quote</h1>
+        <br />
+        <div class="quote-container">
+          <div id="quoteDisplay">
+            <!--Las citas se muestran en este div-->
+          </div>
+        </div>
+        <br />
+        <button class="btn btn-primary" onclick="getStoicQuote()">
+          New quote
+        </button>
+        <button id="myBtn" class="btn btn-outline-success deshabilitado" onclick="shareQuote()"><i class="fa fa-share-alt" aria-hidden="true"></i> Share</button>
+        </button>
+        <script src="script.js"></script>
+        
+      </div>
+    </div>
+    </body>
+</html>

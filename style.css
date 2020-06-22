@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f7f7f7;
+}
+h1 {
+  font-family: "Lora", serif;
+}
+#quoteDisplay {
+  font-family: "Merriweather", serif;
+}
+.container-fluid {
+  margin-top: 3em;
+}
+.quote-container {
+  height: 5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.btn {
+  width: 8em;
+}
+.deshabilitado {
+  cursor: not-allowed;
+}
+
+/* Fade in del sitio */
+.fade-in {
+  opacity: 1;
+  animation-name: fadeInOpacity;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 1s;
+}
+
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
